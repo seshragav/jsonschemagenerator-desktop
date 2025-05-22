@@ -1,0 +1,6 @@
+{
+  "provider": "openai",
+  "apiKey": "x123456789",
+  "llmSchemaHeader": "[\n  {\n    \"key\": \"type\",\n    \"type\": \"keyvalue\",\n    \"value\": \"json_schema\",\n    \"level\": 1\n  },\n  {\n    \"key\": \"json_schema\",\n    \"type\": \"object\",\n    \"level\": 1\n  },\n  {\n    \"key\": \"name\",\n    \"type\": \"string\",\n    \"level\": 2,\n    \"sourceparam\": \"schemaName\"\n  },\n  {\n    \"key\": \"description\",\n    \"type\": \"string\",\n    \"level\": 2,\n    \"sourceparam\": \"schemaDescription\"\n  },\n  {\n    \"key\": \"strict\",\n    \"type\": \"keyvalue\",\n    \"value\": true,\n    \"level\": 2\n  },\n  {\n    \"key\": \"schema\",\n    \"type\": \"object\",\n    \"level\": 2\n  },\n  {\n    \"key\": \"type\",\n    \"type\": \"keyvalue\",\n    \"value\": \"object\",\n    \"level\": 3\n  },\n  {\n    \"key\": \"additionalProperties\",\n    \"type\": \"boolean\",\n    \"action\": \"include\",\n    \"actionLevel\": [\n      \"object\"\n    ],\n    \"value\": false\n  },\n  {\n    \"key\": \"required\",\n    \"type\": \"array\",\n    \"action\": \"include\",\n    \"actionLevel\": [\n      \"object\"\n    ],\n    \"value\": \"{keynames}\"\n  },\n  {\n    \"key\": \"properties\",\n    \"type\": \"object\",\n    \"level\": 3,\n    \"end\": true\n  }\n]",
+  "genAIURLPathParameter": "/genaiapp/uploadopenai/"
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "perplexity",
+  "apiKey": "x123456789",
+  "genAIURLPathParameter": "/market/uploadperplexity/", 
+  "llmSchemaHeader": "[{\"key\":\"type\",\"type\":\"keyvalue\",\"value\":\"json_schema\",\"level\":1},{\"key\":\"json_schema\",\"type\":\"object\",\"level\":1},{\"key\":\"name\",\"type\":\"string\",\"level\":2,\"sourceparam\":\"schemaName\"},{\"key\":\"description\",\"type\":\"string\",\"level\":2,\"sourceparam\":\"schemaDescription\"},{\"key\":\"strict\",\"type\":\"keyvalue\",\"value\":true,\"level\":2},{\"key\":\"schema\",\"type\":\"object\",\"level\":2},{\"key\":\"type\",\"type\":\"keyvalue\",\"value\":\"object\",\"level\":3},{\"key\":\"additionalProperties\",\"type\":\"boolean\",\"action\":\"include\",\"actionLevel\":[\"object\"],\"value\":false},{\"key\":\"required\",\"type\":\"array\",\"action\":\"include\",\"actionLevel\":[\"object\"],\"value\":\"{keynames}\"},{\"key\":\"properties\",\"type\":\"object\",\"level\":3,\"end\":true}]"
+}

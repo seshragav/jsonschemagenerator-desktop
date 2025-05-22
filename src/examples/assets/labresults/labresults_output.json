@@ -1,0 +1,482 @@
+{
+  "response": {
+    "headers": {
+      "patientName": "John Doe",
+      "patientId": "123456",
+      "dateofBirth": "Jan 1970",
+      "age": "Patient is in their 50s",
+      "patientSex": "Male",
+      "patientAccountNumber": "999999",
+      "orderingPhysician": "Joe Doctor",
+      "physicianNPIId": "999999"
+    },
+    "labpanels": [
+      {
+        "panelName": "Complete Blood Count with Differential and Platelet",
+        "results": [
+          {
+            "testName": "White Blood Cell Count (WBC)",
+            "currentResult": "3.9",
+            "highLowFlag": "Normal Range",
+            "previousResult": "4.2",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              4.2,
+              3.9
+            ],
+            "trendRefIntervals": [
+              3.4,
+              10.8
+            ]
+          },
+          {
+            "testName": "Red Blood Cell Count (RBC)",
+            "currentResult": "5.17",
+            "highLowFlag": "Normal Range",
+            "previousResult": "5.01",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E6/uL",
+            "trend": [
+              5.01,
+              5.17
+            ],
+            "trendRefIntervals": [
+              4.14,
+              5.8
+            ]
+          },
+          {
+            "testName": "Hemoglobin",
+            "currentResult": "13.6",
+            "highLowFlag": "Normal Range",
+            "previousResult": "13.5",
+            "previousResultDate": "05/23/2024",
+            "units": "g/dL",
+            "trend": [
+              13.5,
+              13.6
+            ],
+            "trendRefIntervals": [
+              13,
+              17.7
+            ]
+          },
+          {
+            "testName": "Hematocrit",
+            "currentResult": "43.2",
+            "highLowFlag": "Normal Range",
+            "previousResult": "42.5",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              42.5,
+              43.2
+            ],
+            "trendRefIntervals": [
+              37.5,
+              51
+            ]
+          },
+          {
+            "testName": "Mean Corpuscular Volume (MCV)",
+            "currentResult": "84",
+            "highLowFlag": "Normal Range",
+            "previousResult": "85",
+            "previousResultDate": "05/23/2024",
+            "units": "fL",
+            "trend": [
+              85,
+              84
+            ],
+            "trendRefIntervals": [
+              79,
+              97
+            ]
+          },
+          {
+            "testName": "Mean Corpuscular Hemoglobin (MCH)",
+            "currentResult": "26.3",
+            "highLowFlag": "Low",
+            "previousResult": "26.9",
+            "previousResultDate": "05/23/2024",
+            "units": "pg",
+            "trend": [
+              26.9,
+              26.3
+            ],
+            "trendRefIntervals": [
+              26.6,
+              33
+            ]
+          },
+          {
+            "testName": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+            "currentResult": "31.5",
+            "highLowFlag": "Normal Range",
+            "previousResult": "31.8",
+            "previousResultDate": "05/23/2024",
+            "units": "g/dL",
+            "trend": [
+              31.8,
+              31.5
+            ],
+            "trendRefIntervals": [
+              31.5,
+              35.7
+            ]
+          },
+          {
+            "testName": "Red Cell Distribution Width (RDW)",
+            "currentResult": "13.1",
+            "highLowFlag": "Normal Range",
+            "previousResult": "12.7",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              12.7,
+              13.1
+            ],
+            "trendRefIntervals": [
+              11.6,
+              15.4
+            ]
+          },
+          {
+            "testName": "Platelets",
+            "currentResult": "158",
+            "highLowFlag": "Normal Range",
+            "previousResult": "187",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              187,
+              158
+            ],
+            "trendRefIntervals": [
+              150,
+              450
+            ]
+          },
+          {
+            "testName": "Neutrophils",
+            "currentResult": "63",
+            "highLowFlag": "Not Established",
+            "previousResult": "55",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              55,
+              63
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Lymphocytes",
+            "currentResult": "26",
+            "highLowFlag": "Not Established",
+            "previousResult": "32",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              32,
+              26
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Monocytes",
+            "currentResult": "9",
+            "highLowFlag": "Not Established",
+            "previousResult": "10",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              10,
+              9
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Eosinophils",
+            "currentResult": "1",
+            "highLowFlag": "Not Established",
+            "previousResult": "2",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              2,
+              1
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Basophils",
+            "currentResult": "1",
+            "highLowFlag": "Not Established",
+            "previousResult": "1",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              1,
+              1
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Neutrophils (Absolute)",
+            "currentResult": "2.4",
+            "highLowFlag": "Normal Range",
+            "previousResult": "2.3",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              2.3,
+              2.4
+            ],
+            "trendRefIntervals": [
+              1.4,
+              7
+            ]
+          },
+          {
+            "testName": "Lymphocytes (Absolute)",
+            "currentResult": "1.0",
+            "highLowFlag": "Normal Range",
+            "previousResult": "1.3",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              1.3,
+              1
+            ],
+            "trendRefIntervals": [
+              0.7,
+              3.1
+            ]
+          },
+          {
+            "testName": "Monocytes (Absolute)",
+            "currentResult": "0.4",
+            "highLowFlag": "Normal Range",
+            "previousResult": "0.4",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              0.4,
+              0.4
+            ],
+            "trendRefIntervals": [
+              0.1,
+              0.9
+            ]
+          },
+          {
+            "testName": "Eosinophils (Absolute)",
+            "currentResult": "0.1",
+            "highLowFlag": "Normal Range",
+            "previousResult": "0.1",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              0.1,
+              0.1
+            ],
+            "trendRefIntervals": [
+              0,
+              0.4
+            ]
+          },
+          {
+            "testName": "Basophils (Absolute)",
+            "currentResult": "0.0",
+            "highLowFlag": "Normal Range",
+            "previousResult": "0.0",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              0,
+              0
+            ],
+            "trendRefIntervals": [
+              0,
+              0.2
+            ]
+          },
+          {
+            "testName": "Immature Granulocytes",
+            "currentResult": "0",
+            "highLowFlag": "Not Established",
+            "previousResult": "0",
+            "previousResultDate": "05/23/2024",
+            "units": "%",
+            "trend": [
+              0,
+              0
+            ],
+            "trendRefIntervals": []
+          },
+          {
+            "testName": "Immature Grans (Abs)",
+            "currentResult": "0.0",
+            "highLowFlag": "Normal Range",
+            "previousResult": "0.0",
+            "previousResultDate": "05/23/2024",
+            "units": "x10E3/uL",
+            "trend": [
+              0,
+              0
+            ],
+            "trendRefIntervals": [
+              0,
+              0.1
+            ]
+          }
+        ]
+      },
+      {
+        "panelName": "Lipid Panel",
+        "results": [
+          {
+            "testName": "Cholesterol, Total",
+            "currentResult": "115",
+            "highLowFlag": "Normal Range",
+            "previousResult": "108",
+            "previousResultDate": "05/23/2024",
+            "units": "mg/dL",
+            "trend": [
+              108,
+              115
+            ],
+            "trendRefIntervals": [
+              100,
+              199
+            ]
+          },
+          {
+            "testName": "Triglycerides",
+            "currentResult": "70",
+            "highLowFlag": "Normal Range",
+            "previousResult": "58",
+            "previousResultDate": "05/23/2024",
+            "units": "mg/dL",
+            "trend": [
+              58,
+              70
+            ],
+            "trendRefIntervals": [
+              0,
+              149
+            ]
+          },
+          {
+            "testName": "HDL Cholesterol",
+            "currentResult": "42",
+            "highLowFlag": "Normal Range",
+            "previousResult": "42",
+            "previousResultDate": "05/23/2024",
+            "units": "mg/dL",
+            "trend": [
+              42,
+              42
+            ],
+            "trendRefIntervals": [
+              39,
+              100
+            ]
+          },
+          {
+            "testName": "VLDL Cholesterol, Calculated",
+            "currentResult": "15",
+            "highLowFlag": "Normal Range",
+            "previousResult": "13",
+            "previousResultDate": "05/23/2024",
+            "units": "mg/dL",
+            "trend": [
+              13,
+              15
+            ],
+            "trendRefIntervals": [
+              5,
+              40
+            ]
+          },
+          {
+            "testName": "LDL Cholesterol, Calculated (NIH)",
+            "currentResult": "58",
+            "highLowFlag": "Normal Range",
+            "previousResult": "53",
+            "previousResultDate": "05/23/2024",
+            "units": "mg/dL",
+            "trend": [
+              53,
+              58
+            ],
+            "trendRefIntervals": [
+              0,
+              99
+            ]
+          }
+        ]
+      },
+      {
+        "panelName": "Vitamin Test Panel",
+        "results": [
+          {
+            "testName": "Vitamin B12",
+            "currentResult": "308",
+            "highLowFlag": "Normal Range",
+            "previousResult": "240",
+            "previousResultDate": "05/23/2024",
+            "units": "pg/mL",
+            "trend": [
+              240,
+              308
+            ],
+            "trendRefIntervals": [
+              232,
+              1245
+            ]
+          },
+          {
+            "testName": "Folate (Folic Acid), Serum",
+            "currentResult": "15.5",
+            "highLowFlag": "Normal Range",
+            "previousResult": "11.5",
+            "previousResultDate": "05/23/2024",
+            "units": "ng/mL",
+            "trend": [
+              11.5,
+              15.5
+            ],
+            "trendRefIntervals": [
+              3,
+              100
+            ]
+          },
+          {
+            "testName": "Vitamin D, 25-Hydroxy",
+            "currentResult": "35.0",
+            "highLowFlag": "Normal Range",
+            "previousResult": "29.5",
+            "previousResultDate": "05/23/2024",
+            "units": "ng/mL",
+            "trend": [
+              29.5,
+              35
+            ],
+            "trendRefIntervals": [
+              30,
+              100
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "num_input_tokens": 1110,
+  "num_output_tokens": 3090,
+  "input_cost": "$0.00",
+  "output_cost": "$0.00",
+  "total_cost": "$0.00"
+}

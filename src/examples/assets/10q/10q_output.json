@@ -1,0 +1,106 @@
+{
+	"response": {
+		"geographicSales": [
+			{
+				"regionName": "Americas",
+				"currentRevenue": "$52,648 million",
+				"priorPeriodRevenue": "$50,430 million",
+				"changeinPercent": "4%",
+				"geographicSegmentNarratives": [
+					"Americas net sales increased due to higher net sales of Services and iPhone.",
+					"Weakness in foreign currencies had an unfavorable impact."
+				]
+			},
+			{
+				"regionName": "Europe",
+				"currentRevenue": "$33,861 million",
+				"priorPeriodRevenue": "$30,397 million",
+				"changeinPercent": "11%",
+				"geographicSegmentNarratives": [
+					"Europe net sales increased due to higher net sales of Services and iPhone.",
+					"Strength in foreign currencies had a favorable impact."
+				]
+			},
+			{
+				"regionName": "Greater China",
+				"currentRevenue": "$18,513 million",
+				"priorPeriodRevenue": "$20,819 million",
+				"changeinPercent": "-11%",
+				"geographicSegmentNarratives": [
+					"Net sales decreased due to lower sales of iPhone.",
+					"Strength in the renminbi had a favorable impact."
+				]
+			},
+			{
+				"regionName": "Japan",
+				"currentRevenue": "$8,987 million",
+				"priorPeriodRevenue": "$7,767 million",
+				"changeinPercent": "16%",
+				"geographicSegmentNarratives": [
+					"Net sales increased due to higher sales of iPhone and Services."
+				]
+			},
+			{
+				"regionName": "Rest of Asia Pacific",
+				"currentRevenue": "$10,291 million",
+				"priorPeriodRevenue": "$10,162 million",
+				"changeinPercent": "1%",
+				"geographicSegmentNarratives": [
+					"Net sales were relatively flat compared to the prior period."
+				]
+			}
+		],
+		"productSegmentSales": [
+			{
+				"productSegmentName": "iPhone",
+				"currentRevenue": "$69,138 million",
+				"priorPeriodRevenue": "$69,702 million",
+				"changeInPercent": "-1%",
+				"productSegmentNarratrives": [
+					"Net sales were relatively flat."
+				]
+			},
+			{
+				"productSegmentName": "Mac",
+				"currentRevenue": "$8,987 million",
+				"priorPeriodRevenue": "$7,780 million",
+				"changeInPercent": "16%",
+				"productSegmentNarratrives": [
+					"Net sales increased due to higher sales of laptops."
+				]
+			},
+			{
+				"productSegmentName": "iPad",
+				"currentRevenue": "$8,088 million",
+				"priorPeriodRevenue": "$7,023 million",
+				"changeInPercent": "15%",
+				"productSegmentNarratrives": [
+					"Net sales increased due to higher sales of iPad Air®."
+				]
+			},
+			{
+				"productSegmentName": "Wearables, Home and Accessories",
+				"currentRevenue": "$11,747 million",
+				"priorPeriodRevenue": "$11,953 million",
+				"changeInPercent": "-2%",
+				"productSegmentNarratrives": [
+					"Net sales decreased due to lower sales of Wearables."
+				]
+			},
+			{
+				"productSegmentName": "Services",
+				"currentRevenue": "$26,340 million",
+				"priorPeriodRevenue": "$23,117 million",
+				"changeInPercent": "14%",
+				"productSegmentNarratrives": [
+					"Net sales increased due to higher sales from advertising, the App Store®, and cloud services."
+				]
+			}
+		]
+	},
+	"num_input_tokens": 956,
+	"num_output_tokens": 772,
+	"input_cost": "$0.00",
+	"output_cost": "$0.00",
+	"total_cost": "$0.00"
+}

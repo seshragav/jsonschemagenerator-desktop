@@ -1,0 +1,6 @@
+{
+  "provider": "google-gemini",
+  "apiKey": "x123456789",
+  "genAIURLPathParameter": "/market/uploadgemini/", 
+  "llmSchemaHeader": "[{\"key\":\"type\",\"type\":\"keyvalue\",\"value\":\"object\",\"level\":1},{\"key\":\"properties\",\"type\":\"object\",\"level\":1,\"end\":true}]"
+}

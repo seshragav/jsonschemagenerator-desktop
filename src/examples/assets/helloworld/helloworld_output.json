@@ -1,0 +1,96 @@
+{
+  "response": {
+    "desserts": [
+      {
+        "dessertName": "Pavlova",
+        "country": "New Zealand",
+        "geocordinates": "-40.9006, 174.8860",
+        "background": "Pavlova, a meringue named for Russian ballerina Anna Pavlova, is a point of friendly pride between New Zealand and Australia; its crisp shell and marshmallow-soft center are finished with clouds of whipped cream and fresh fruit.",
+        "recipe": {
+          "ingredients": [
+            "4 room-temperature egg whites",
+            "1 cup (200 g) caster sugar",
+            "1 tsp cornstarch",
+            "1 tsp white vinegar",
+            "1 cup whipped cream",
+            "Fresh strawberries, kiwi, passion-fruit or mixed berries"
+          ],
+          "instructions": [
+            "Heat oven to 110 °C (230 °F) and line a tray with parchment.",
+            "Whisk egg whites to soft peaks, then add sugar a spoon at a time until stiff and glossy.",
+            "Fold in cornstarch and vinegar; mound on tray with a shallow well in the center.",
+            "Bake 1 h 15 min, switch oven off and cool inside with door ajar.",
+            "Top with whipped cream and fruit just before serving."
+          ]
+        },
+        "whereToGet": [
+          "Cibo – Auckland",
+          "Winona Forever – Auckland",
+          "Little & Friday – Auckland",
+          "The Grove – Auckland",
+          "Floriditas – Wellington",
+          "Public Kitchen & Bar – Queenstown",
+          "Lone Star – Queenstown",
+          "Dux Dine – Christchurch"
+        ]
+      },
+      {
+        "dessertName": "Rasgulla",
+        "country": "India",
+        "geocordinates": "20.5937, 78.9629",
+        "background": "Rasgulla began as a temple offering in Odisha, was refined into its springy form by Kolkata’s Nobin Chandra Das in 1868, and is now beloved—and hotly contested—across eastern India.",
+        "recipe": {
+          "ingredients": [
+            "1 L full-fat milk",
+            "2 Tbsp lemon juice",
+            "400 g (2 cups) sugar",
+            "1 L (4 cups) water",
+            "1 tsp flour or semolina (optional)",
+            "2–3 cardamom pods, pinch saffron, splash rose-water"
+          ],
+          "instructions": [
+            "Boil milk, stir in lemon juice to curdle, strain through muslin and rinse.",
+            "Hang chenna 30 min, then knead 10 min (add flour if using) and roll ~20 smooth balls.",
+            "Boil sugar and water with aromatics to make syrup.",
+            "Slide balls into rolling syrup, cover and simmer 12–15 min until tripled in size.",
+            "Splash in a little cold water, let cool, then chill in syrup."
+          ]
+        },
+        "whereToGet": [
+          "K.C. Das – Kolkata",
+          "Girish Ch. Dey & Nakur Ch. Nandy – Kolkata",
+          "Chittaranjan Mistanna Bhandar – Kolkata",
+          "Balaram Mullick & Radharaman Mullick – Kolkata",
+          "Bikalananda Kar's – Cuttack",
+          "Roadside stalls – Pahala, Odisha"
+        ]
+      },
+      {
+        "dessertName": "Mousse de Maracujá",
+        "country": "Brazil",
+        "geocordinates": "-14.2350, -51.9253",
+        "background": "Mousse de maracujá is a newer star of Brazilian sweets—lusciously light, tangy with passion-fruit and sweetened with condensed milk—served everywhere from bakeries to beach cafés.",
+        "recipe": {
+          "ingredients": [
+            "1 can (14 oz) sweetened condensed milk",
+            "1 can (7.5 oz) creme de leite or 1 cup heavy cream",
+            "½–1½ can passion-fruit pulp or concentrate",
+            "2 tsp unflavoured gelatin bloomed in 3 Tbsp water (optional)",
+            "Fresh passion-fruit pulp for topping"
+          ],
+          "instructions": [
+            "If using gelatin, bloom in water 5 min and melt until clear; cool slightly.",
+            "Blend condensed milk, creme de leite and passion-fruit pulp until smooth.",
+            "Blend in melted gelatin for 30 sec.",
+            "Pour into glasses, chill at least 3 h (or overnight).",
+            "Spoon over fresh pulp or seeds before serving."
+          ]
+        },
+        "whereToGet": [
+          "Carlo’s Bakery – São Paulo",
+          "Pimenta Rosa Gastronomia – Arraial do Cabo"
+        ]
+      }
+    ]
+  }
+}

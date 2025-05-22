@@ -1,0 +1,62 @@
+{
+  "name": "jsonschemagenerator-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "tauri:dev": "tauri dev",
+    "build:web": "tsc && vite build",
+    "build:tauri": "tauri build",
+    "build": "npm run build:web",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "sec:js": "npm audit --production && npx snyk test || true",
+    "sec:rust": "cd src-tauri && cargo audit -q && cargo geiger -q",
+    "sec:code": "npx semgrep --config \"p/tslint-security\"",
+    "sec": "npm run sec:js && npm run sec:rust && npm run sec:code"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.13.6",
+    "@mui/lab": "^5.0.0-alpha.126",
+    "@mui/material": "^5.17.1",
+    "@mui/x-tree-view": "^8.1.0",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-opener": "^2.0.0",
+    "@types/react-simple-maps": "^3.0.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.11.0",
+    "github-markdown-css": "^5.8.1",
+    "leo-profanity": "^1.7.0",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "react-simple-maps": "^1.0.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "remark-gfm": "^4.0.1",
+    "styled-components": "^5.3.10",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tauri-apps/cli": "^2.0.0-rc.18",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.6",
+    "typescript": "^5.6.2",
+    "vite": "^6.3.2"
+  },
+  "overrides": {
+    "prismjs": "^1.29.0",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0"
+  }
+}

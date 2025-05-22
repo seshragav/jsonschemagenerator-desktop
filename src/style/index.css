@@ -1,0 +1,104 @@
+/* ------------------------------------------------------------------
+ * MIT License
+ * Copyright (c) 2025  Sesh Ragavachari
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the “Software”), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the
+ * Software, and to permit persons to whom the Software is furnished
+ * to do so, subject to the following conditions:
+ *
+ * THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ * ------------------------------------------------------------------
+ * File   : index.css  (style/ folder)
+ * Author : Sesh Ragavachari
+ * Date   : 2025-04-30
+ * Version: 1.0
+ * ------------------------------------------------------------------
+ * Purpose
+ *  Global overrides & PDF-viewer styles used by the optional PDF
+ *  highlighter demo.  Imports PDF.js viewer CSS first, then extends
+ *  it with scroll-snap layout, page borders, and highlight pop-ups.
+ * ------------------------------------------------------------------ */
+
+/* --- third-party PDF.js defaults --------------------------------- */
+@import "pdfjs-dist/web/pdf_viewer.css";
+@import "./pdf_viewer.css";
+
+/* ------------------------------------------------------------------ */
+/* Highlight tooltip                                                  */
+/* ------------------------------------------------------------------ */
+.Highlight__popup {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  color: #ff0000;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  max-width: 300px;
+  max-height: 100px;
+  overflow-y: scroll;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Highlight__popup::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #ffffff transparent;
+  top: -5px;
+  left: 10px;
+}
+
+/* ------------------------------------------------------------------ */
+/* PDF-highlighter container                                          */
+/* ------------------------------------------------------------------ */
+.pdf-highlighter-container {
+  height: 70%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  background-color: #e0e0e0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual page wrapper ----------------------------------------- */
+.pdf-page {
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  border-top: 4px solid #ff0000;
+  border-bottom: 4px solid #ff0000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* ------------------------------------------------------------------ */
+/* PDF.js page-border overrides                                       */
+/* ------------------------------------------------------------------ */
+.pdfViewer.removePageBorders .page {
+  margin: 0 auto 10px;
+  border: none;
+}
+
+.pdfViewer.singlePageView {
+  display: inline-block;
+}
+
+.pdfViewer.singlePageView .page {
+  margin: 0;
+  border: none;
+}

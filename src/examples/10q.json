@@ -1,0 +1,138 @@
+{
+	"metadataName": "10q",
+	"metadataDescription": "10Q Report Section Sample",
+	"fields": [
+		{
+			"id": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentId": null,
+			"parentKey": null,
+			"key": "geographicSales",
+			"type": "array-object",
+			"level": 0,
+			"aiPrompt": "Sales Broken down by Geographic Region",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "22ad8f0b-dd20-4736-b69e-524fcd8572a9",
+			"parentId": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentKey": "geographicSales",
+			"level": 1,
+			"key": "regionName",
+			"type": "string",
+			"aiPrompt": "Name of the Geographic Region",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "3da33a44-b4ae-42d8-a92f-d5a1392d8d87",
+			"parentId": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentKey": "geographicSales",
+			"level": 1,
+			"key": "currentRevenue",
+			"type": "string",
+			"aiPrompt": "Current Revenue in Dollars",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "e24a99b8-2f76-4a9a-9e26-25e65e06a8f4",
+			"parentId": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentKey": "geographicSales",
+			"level": 1,
+			"key": "priorPeriodRevenue",
+			"type": "string",
+			"aiPrompt": "Prior Period Revenue (3 months ended)",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "9554dc23-b902-4b53-b086-0f3baeb6cca6",
+			"parentId": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentKey": "geographicSales",
+			"level": 1,
+			"key": "changeInPercent",
+			"type": "string",
+			"aiPrompt": "Change in Percent",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "490544e6-4578-40cd-bfd3-6aba4b07efea",
+			"parentId": "052215c4-db4f-4e10-9213-b5a4d2577fa9",
+			"parentKey": "geographicSales",
+			"level": 1,
+			"key": "geographicSegmentNarratives",
+			"type": "array-string",
+			"aiPrompt": "Narratives attributed to that region",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentId": null,
+			"parentKey": null,
+			"level": 0,
+			"key": "productSegmentSales",
+			"type": "array-object",
+			"aiPrompt": "List of Sales by Product Segments",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "3d0ff468-122a-4930-b1ac-5a3004763bd5",
+			"parentId": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentKey": "productSegmentSales",
+			"level": 1,
+			"key": "productSegmentName",
+			"type": "string",
+			"aiPrompt": "Name of the Product Segment",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "956a25e4-7b10-464d-9851-6660dce06b07",
+			"parentId": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentKey": "productSegmentSales",
+			"level": 1,
+			"key": "currentRevenue",
+			"type": "string",
+			"aiPrompt": "Current Revenue for Product Segment",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "7bdd6fb6-17ec-44e2-8b0e-ab506278169d",
+			"parentId": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentKey": "productSegmentSales",
+			"level": 1,
+			"key": "priorPeriodRevenue",
+			"type": "string",
+			"aiPrompt": "Prior Period Revenue for Product Segment",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "a9153f5b-ede7-47a8-ab4e-9cdb306e484f",
+			"parentId": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentKey": "productSegmentSales",
+			"level": 1,
+			"key": "changeInPercent",
+			"type": "string",
+			"aiPrompt": "Percent Change between Periods",
+			"required": false,
+			"locked": false
+		},
+		{
+			"id": "7ba53621-6064-4dee-bbb7-828c88eb96ce",
+			"parentId": "c531a7a9-47ec-4750-a78e-3e57eca8062f",
+			"parentKey": "productSegmentSales",
+			"level": 1,
+			"key": "productSegmentNarratives",
+			"type": "array-string",
+			"aiPrompt": "Key points from management related to Product Segment Revenue",
+			"required": false,
+			"locked": false
+		}
+	]
+}

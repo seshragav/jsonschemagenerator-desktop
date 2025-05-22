@@ -1,0 +1,5 @@
+{
+  "provider": "anthropic",
+  "apiKey": "x123456789",
+  "llmSchemaHeader": "[{\"key\":\"name\",\"type\":\"string\",\"level\":1, \"sourceparam\": \"schemaName\"},{\"key\":\"description\",\"type\":\"string\",\"level\":1, \"sourceparam\": \"schemaDescription\"},{\"key\":\"input_schema\",\"type\":\"object\",\"level\":1},{\"key\":\"type\",\"type\":\"keyvalue\",\"value\":\"object\",\"level\":2},{\"key\":\"properties\",\"type\":\"object\",\"level\":2,\"end\":true}]"
+}

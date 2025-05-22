@@ -1,0 +1,119 @@
+{
+  "metadataName": "signatureDesserts",
+  "metadataDescription": "Iconic country-specific desserts and where to find them",
+  "fields": [
+    {
+      "id": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentId": null,
+      "parentKey": null,
+      "key": "desserts",
+      "type": "array-object",
+      "level": 0,
+      "aiPrompt": "Top national desserts world-wide",
+      "required": false,
+      "locked": false
+    },
+
+    {
+      "id": "8651a3c7-5b50-4b5e-9cdf-4118123fe0c5",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "dessertName",
+      "type": "string",
+      "level": 1,
+      "aiPrompt": "Official or common name of the dessert (e.g., Pavlova, Gulab Jamun)",
+      "required": false,
+      "locked": true
+    },
+
+
+    {
+      "id": "75c3f226-4387-4d47-bbf5-9ae611e0d501",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "country",
+      "type": "string",
+      "level": 1,
+      "aiPrompt": "Country name (e.g., New Zealand, India, Brazil)",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "e114d3c4-731f-4fbb-a2dd-cbc0e1e2c866",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "geocordinates",
+      "type": "string",
+      "level": 1,
+      "aiPrompt": "Lat/Long in decimal degrees (approx. geographic centre of the country)",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "1c6b6308-f5ac-4e33-a382-9e4fa6fc6b65",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "background",
+      "type": "string",
+      "level": 1,
+      "aiPrompt": "Historical and cultural back-story of the dessert",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "d2b84385-0d34-42a2-9be0-4b7d0c7b4c55",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "image",
+      "type": "string",
+      "level": 1,
+      "aiPrompt": "Link to an illustrative image of the dessert",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "c25e0cf3-6c19-4f70-b7d4-0c5b0bc9ff70",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "recipe",
+      "type": "object",
+      "level": 1,
+      "aiPrompt": "Recipe container (ingredients + step-by-step)",
+      "required": false,
+      "locked": false
+    },
+    {
+      "id": "854e7b8a-7b0e-4740-a4cf-23d9722155a1",
+      "parentId": "c25e0cf3-6c19-4f70-b7d4-0c5b0bc9ff70",
+      "parentKey": "recipe",
+      "key": "ingredients",
+      "type": "array-string",
+      "level": 2,
+      "aiPrompt": "List of ingredients with amounts",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "b1c14f9b-43e7-4f7c-a3ad-9e8639209c7e",
+      "parentId": "c25e0cf3-6c19-4f70-b7d4-0c5b0bc9ff70",
+      "parentKey": "recipe",
+      "key": "instructions",
+      "type": "array-string",
+      "level": 2,
+      "aiPrompt": "Ordered cooking / assembly steps",
+      "required": false,
+      "locked": true
+    },
+    {
+      "id": "c59df2e9-b41b-4827-82a9-f1f4d2b4ead3",
+      "parentId": "7ae48570-61ec-4cbd-8b0e-2b0c2df1d001",
+      "parentKey": "desserts",
+      "key": "whereToGet",
+      "type": "array-string",
+      "level": 1,
+      "aiPrompt": "Recommended restaurants / bakeries that serve the dessert",
+      "required": false,
+      "locked": true
+    }
+  ]
+}
